@@ -1,4 +1,4 @@
-# [Paper2Agent](https://github.com/jmiao24/Paper2Agent): SpatialProp Demo
+# [Paper2Agent](https://github.com/jmiao24/Paper2Agent): [SpatialProp](https://github.com/abuendia/spatial-prop) Demo
 
 A demonstration of turning the [SpatialProp paper](https://www.biorxiv.org/content/10.64898/2025.11.30.691355v1.full) (Sun et al. 2025) into an interactive AI agent. This project transforms SpatialProp (Spatial Propagation of Single-cell Perturbations) into a conversational agent which can train graph deep learning models on spatial transcriptomics data to predict the effects of single-cell genetic perturbations.
 
@@ -63,7 +63,6 @@ You will now have access to the SpatialProp agent with all available tools.
 Using the coronal aging dataset and model from the SpatialProp demo, perturb the 
 genes TP53 and IFNGR1 by a factor of 20 in microglia. Visualize the predicted
 propagation and output the plot.
-
 ```
 
 ## Available Agent Tools
