@@ -60,9 +60,11 @@ You will now have access to the SpatialProp agent with all available tools.
 ## Example Query
 
 ```
-Using the coronal aging dataset and model from the SpatialProp demo, perturb the 
-genes TP53 and IFNGR1 by a factor of 20 in microglia. Visualize the predicted
-propagation and output the plot.
+Using my mouse exercise dataset located at ./tmp/inputs/exercise.h5ad, train a
+SpatialProp model on mouse YC1. Use mouse YC4 for held-out validation. Output 
+the training curves and model checkpoint in ./tmp/outputs/. Then use the trained model
+to perturb the genes Tp53 and Ifngr1 by a factor of 20 in Microglia in mouse YC4. 
+Visualize the predicted propagation and output the plot in ./tmp/outputs/.
 ```
 
 ## Available Agent Tools
