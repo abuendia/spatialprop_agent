@@ -2,5 +2,5 @@ fastmcp
 matplotlib
 numpy
 pandas
-spatial-prop @ git+https://github.com/abuendia/spatial-prop.git
+spatial-gnn @ git+https://github.com/abuendia/spatial-prop.git
 torch
